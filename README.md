@@ -10,7 +10,7 @@ By the end of this guide, you'll have a fully functional pipeline capable of aut
 
 ---
 
-## Setting Up the Environment
+## Setting Up The Environment
 Before we dive into the implementation, ensure you have the following:
 
 - **Kubernetes Cluster**: A working Kubernetes cluster (e.g., Minikube, AKS, EKS, or GKE).
@@ -20,7 +20,7 @@ Before we dive into the implementation, ensure you have the following:
 
 For this tutorial, we'll use the following real-world example:
 - **Application**: A Node.js REST API that returns the current time. This application was chosen for its simplicity and clarity, making it an ideal example for demonstrating CI/CD workflows. Its lightweight structure allows you to focus on pipeline automation without the complexities of managing a large codebase, while still being representative of real-world deployment scenarios.
-- **Repository**: [kubernetes-ci-cd-demo](https://github.com/Tinega-Devops/kubernetes-ci-cd-demo).
+- **Repository**: [kubernetes-ci-cd](https://github.com/ennolan/k8s-cicd).
 - **Container Registry**: Docker Hub (`<Your-dockerhub-username>/current-time-api`).
 
 To follow along, start by forking the repository and cloning it to your local computer. This will allow you to make changes to the code and push them back to your GitHub account.
